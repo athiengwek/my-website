@@ -2,10 +2,13 @@ backend:
   name: github
   repo: athiengwek/my-website
   branch: main # Branch to update (optional; defaults to master)
+  site_domain: athiengwek.com
   base_url: https://athiengwek.com
   auth_endpoint: /api/auth
+
 media_folder: static/img
 public_folder: /img
+
 collections:
   - name: 'blog'
     label: 'Blog'
