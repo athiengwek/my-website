@@ -1,3 +1,5 @@
+# Note: multimedia files are going/meant to be stored elsewhere; retaining this just in case something isn't.
+
 # Images
 *.[jJ][pP][gG] filter=lfs diff=lfs merge=lfs -text
 *.[jJ][pP][eE][gG] filter=lfs diff=lfs merge=lfs -text

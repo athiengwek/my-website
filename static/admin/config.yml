@@ -7,7 +7,17 @@ backend:
   auth_endpoint: /api/auth
 
 media_folder: static/img
-public_folder: /img
+
+# Tell Decap CMS where public images are served from
+public_folder: "https://media.athiengwek.com"
+
+# Use S3 / R2 for media storage instead of saving files inside static/
+media_library:
+  name: s3
+  config:
+    bucket: my-website-media
+    region: auto
+    endpoint: "/api/upload"
 
 collections:
   - name: 'blog'
